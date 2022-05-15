@@ -38,9 +38,9 @@
 
         <Border Grid.Row="1" Grid.ColumnSpan="2" Padding="20 0" VerticalAlignment="Top">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                <Button Content="Ok" Width="70" Height="30" Margin="0 0 20 0" Background="#FF3F3E3E" Foreground="White" FontWeight="Bold" FontSize="14" BorderBrush="#FF3F3E3E"/>
-                <Button Content="Cancel" Width="70" Height="30" Margin="0 0 20 0" Background="#FF3F3E3E" Foreground="White" FontWeight="Bold" FontSize="14" BorderBrush="#FF3F3E3E"/>
-                <Button Content="Close" Width="70" Height="30" Margin="0 0 20 0" Background="#FF3F3E3E" Foreground="White" FontWeight="Bold" FontSize="14" BorderBrush="#FF3F3E3E">
+                <Button Content="Ok" Width="70" Height="30" Margin="0 0 20 0" Background="#FF3F3E3E" Foreground="White" FontWeight="Bold" FontSize="14" BorderBrush="#FF3F3E3E" Click="handleFormSubmit"/>
+                <Button Content="Reset" Width="70" Height="30" Margin="0 0 20 0" Background="#FF3F3E3E" Foreground="White" FontWeight="Bold" FontSize="14" BorderBrush="#FF3F3E3E" Click="handleReset"/>
+                <Button Content="Close" Width="70" Height="30" Margin="0 0 20 0" Background="#FF3F3E3E" Foreground="White" FontWeight="Bold" FontSize="14" BorderBrush="#FF3F3E3E" Click="handleClose">
 
                 </Button>
 
