@@ -1,0 +1,8 @@
+﻿<Window x:Class="WpfDay_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:WpfDay_1"
+       
+        Title="Day 1 Lab" Height="450" Width="800">
+    <Button Width="120" Height="60">Click me!</Button>
+</Window>
